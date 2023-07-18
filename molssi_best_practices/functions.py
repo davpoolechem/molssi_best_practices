@@ -149,22 +149,6 @@ def build_bond_list(coordinates, max_bond=1.5, min_bond=0):
 
 
 if __name__ == "__main__":
-    """
-    Placeholder function to show example docstring (NumPy format).
-
-    Replace this function and doc string for your own project.
-
-    Parameters
-    ----------
-    with_attribution : bool, Optional, default: True
-        Set whether or not to display who the quote is from.
-
-    Returns
-    -------
-    quote : str
-        Compiled string including quote and optional attribution.
-    """
-
     molecules = ["benzene"]
 
     for molecule in molecules:

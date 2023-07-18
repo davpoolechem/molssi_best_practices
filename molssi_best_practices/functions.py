@@ -9,8 +9,31 @@ from mpl_toolkits.mplot3d import Axes3D
 # %matplotlib notebook
 
 
-def calculate_distance(rA, rB):
-    # This function calculates the distance between two points given as numpy arrays.
+def calculate_distance(rA: np.ndarray, rB: np.ndarray):
+    """
+    Calculate the distance between two points A and B.
+
+    Parameters
+    ----------
+    rA : np.ndarray
+        Coordinates of point A.
+    rB : np.ndarray
+        Coordinates of point B.
+
+    Returns
+    -------
+    dist : float
+        Distance between A and B.
+
+    Examples
+    --------
+    ```
+    >>> r1 = np.ndarray([0, 0, 0])
+    >>> r2 = np.ndarray([0, 0.1, 0])
+    >>> calculate_distance(r1, r2)
+    0.1
+    ```
+    """
     d = rA - rB
     dist = np.linalg.norm(d)
     return dist
@@ -194,6 +217,22 @@ atom_colors = {
 }
 
 if __name__ == "__main__":
+    """
+    Placeholder function to show example docstring (NumPy format).
+
+    Replace this function and doc string for your own project.
+
+    Parameters
+    ----------
+    with_attribution : bool, Optional, default: True
+        Set whether or not to display who the quote is from.
+
+    Returns
+    -------
+    quote : str
+        Compiled string including quote and optional attribution.
+    """
+
     molecules = ["benzene"]
 
     for molecule in molecules:

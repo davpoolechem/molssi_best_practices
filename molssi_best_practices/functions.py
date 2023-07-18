@@ -9,7 +9,7 @@ from mpl_toolkits.mplot3d import Axes3D
 # %matplotlib notebook
 
 
-def calculate_distance(rA: np.ndarray, rB: np.ndarray):
+def calculate_distance(rA: np.ndarray, rB: np.ndarray) -> float:
     """
     Calculate the distance between two points A and B.
 

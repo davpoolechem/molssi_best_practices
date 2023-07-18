@@ -167,6 +167,5 @@ if __name__ == "__main__":
         bonds = build_bond_list(coords)
          
         #== tests ==#
-        #== first, draw the molecule ==#
-        #draw_molecule(coords, symbols, draw_bonds=None, save_location="data", dpi=300)
+        #draw_molecule(coords, symbols, save_location=os.path.join(os.getcwd(), f'data/{molecule}_structure.png')) # seems to fail for some reason 
         bond_histogram(bonds, save_location=os.path.join(os.getcwd(), f'data/{molecule}_bond_histogram.png'))

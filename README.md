@@ -5,7 +5,7 @@ molssi_best_practices
 [![codecov](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/molssi_best_practices/branch/main/graph/badge.svg)](https://codecov.io/gh/REPLACE_WITH_OWNER_ACCOUNT/molssi_best_practices/branch/main)
 
 
-A sample package for the 2023 MolSSI Fellows Bootcamp
+A sample package for the 2023 MolSSI Software Fellows Bootcamp, outlining software best practices and tools such as MolSSI CookieCutter.
 
 ### Copyright
 

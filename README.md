@@ -7,6 +7,8 @@ molssi_best_practices
 
 A sample package for the 2023 MolSSI Software Fellows Bootcamp, outlining software best practices and tools such as MolSSI CookieCutter.
 
+This package requires `numpy` and `matplotlib`.
+
 ### Copyright
 
 Copyright (c) 2023, David Poole
